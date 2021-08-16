@@ -42,6 +42,8 @@ To make a reservation you must be able to pay with any payment method.
 > AS a user I WANT to pay (bank transfer, pay later, Paypal, Stripe and
 > Paddle) SO THAT make a reservation.
 
+![MindMapBooking](https://github.com/jsilvalu/QAutomation/blob/main/Resources/PHPTRAVELSBooking.png?raw=true)
+
 
 ## 4. Results
 
