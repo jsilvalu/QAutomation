@@ -70,7 +70,9 @@ For example: Applying limit value tests, it has been detected that the system al
 In relation to the hotel reservation process the following errors have been detected:
 
 1. Some hotels show broken images
+
 ![brokenimg](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen5.png?raw=true)
+
 
 2. When I search for hotels, the correct price appears, however, when I make the reservation, a higher price appears.
 
