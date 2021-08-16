@@ -49,7 +49,44 @@ To make a reservation you must be able to pay with any payment method.
 
 Although the objective is not to test functionalities such as search, it belongs to part of the flow to start with the booking process and possible incidences have been detected that should be reported:
 
+1. It is possible to apply unsuitable values to the field of adults, children and rooms.
+For example: Applying limit value tests, it has been detected that the system allows inserting values that are too high. By applying equivalence class tests it is possible to insert values of different types as "test". By applying null value tests it has been found that the system responds to null or "0" values.
+
+![999999](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen1.png?raw=true)
+![999999search](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen2.png?raw=true)
+![0Values](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen3.png?raw=true)
+![testvalues](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen4.png?raw=true)
+
+2.There are typing errors in Hotel Amenities
+
+![words1](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen12.png?raw=true)
+![words2](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen13.png?raw=true)
+
+3.There are responsive problems that cause some texts to overlap breaking SCSS styles.
+
+![Responsive](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen14.png?raw=true)
+
+
 In relation to the hotel reservation process the following errors have been detected:
+
+1. It is possible to apply unsuitable values to the field of adults, children and rooms.
+![brokenimg](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen5.png?raw=true)
+
+2. When I search for hotels, the correct price appears, however, when I make the reservation, a higher price appears.
+
+![correctPrice](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen6.png?raw=true)
+![incorrectPRice](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen7.png?raw=true)
+
+3. Cuando intento descargar el justificante de reserva del hotel la página muestra un error.
+
+![DownloadInvoice](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen8.png?raw=true)
+![DownloadInvoiceNotFound](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen9.png?raw=true)
+
+4. If I cancel a reservation I can continue with the flow, go to the payment and have on the same page the status "Paid" and "Canceled".
+
+
+![Confirmed](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen10.png?raw=true)
+![Cancelled](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen11.png?raw=true)
 
 
 ## 5.Risk analysis
