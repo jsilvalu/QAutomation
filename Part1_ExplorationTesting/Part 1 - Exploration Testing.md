@@ -17,7 +17,9 @@ The goal is to explore and describe three key scenarios for a hotel's booking fl
 
 The functionality delivered by the development team consists in allowing to make a hotel reservation from a search. To explore this new functionality I have designed a mind map with the flows involved in this action as well as all its possible input parameters. 
 The mind map that specifies this exploratory testing session is the following:
-_____________________________________________=====
+
+![MindMap](https://github.com/jsilvalu/QAutomation/blob/main/Resources/PHPTRAVELS.png?raw=true)
+
 
 ## 3. Key Scenarios
 
