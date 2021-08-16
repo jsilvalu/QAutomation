@@ -5,7 +5,6 @@
 ## 1. Introduction and target
 
 Exploration testing presents an external structure that is simple to describe, in which for a period of time a tester – or team of testers – interacts with a product to meet the objective of a mission, to present and report the results that the rest of the project actors will use to make conscious decisions. Exploratory testing allows the tester to be creative.
-![imagen text](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen1.png?raw=true)
 
 Some benefits of exploratory testing are:
 - Easy optimization.
