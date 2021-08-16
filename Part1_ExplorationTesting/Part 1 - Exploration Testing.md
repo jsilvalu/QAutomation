@@ -79,7 +79,7 @@ In relation to the hotel reservation process the following errors have been dete
 ![correctPrice](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen6.png?raw=true)
 ![incorrectPRice](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen7.png?raw=true)
 
-3. Cuando intento descargar el justificante de reserva del hotel la página muestra un error.
+3. When I try to download the hotel reservation voucher the page shows an error.
 
 ![DownloadInvoice](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen8.png?raw=true)
 ![DownloadInvoiceNotFound](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen9.png?raw=true)
