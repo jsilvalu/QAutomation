@@ -13,6 +13,21 @@ Some benefits of exploratory testing are:
 
 The goal is to explore and describe three key scenarios for a hotel's booking flow in [https://www.phptravels.net/](https://www.phptravels.net/)
 
+In the following table I will present the details of the session that will be conducted to explore the new development.
+
+| Item | Description  |
+|--|--|
+|Target  | The development team has just introduced hotel booking functionality on the site. Without any documentation, you have to test this functionality! |
+|Tester| Juan Antonio Silva Luján |
+|Environment  |https://www.phptravels.net/   |
+|System| Windows 10 |
+|Browser/Version| Chrome/92.0.4515.131  |
+|Date  | 16/08/2021 20:00 |
+|Time  | 1 h |
+|Risks  | Booking flow (results, hotel details, images, description, price, personal data, travellers data, payments methods).   |
+|Errors  | 9 |
+|Notes  | Interesting e2e flows:  analysis of limit values, equivalence classes, null values in input fields. Payment method flows. Price analysis in search and booking.|
+
 ## 2. Functionality
 
 The functionality delivered by the development team consists in allowing to make a hotel reservation from a search. To explore this new functionality I have designed a mind map with the flows involved in this action as well as all its possible input parameters. 
@@ -26,20 +41,20 @@ The mind map that specifies this exploratory testing session is the following:
 **3.1 Key Scenarios #1**
 To make a reservation it is necessary to enter the user's personal information.
 
-> AS a user I WANT to enter my personal information (first name, last
+> AS an user I WANT to enter my personal information (first name, last
 > name, email, phone, address, country, nationality) in order SO THAT make a
 > reservation.
 
 **3.2 Key Scenarios #2**
 To make a reservation it is necessary to enter the travelers' information.
 
-> AS a user I WANT to enter the travelers information (title, first name
+> AS an user I WANT to enter the travelers information (title, first name
 > and last name) in order SO THAT make a reservation.
 
 **3.3 Key Scenarios #3**
 To make a reservation you must be able to pay with any payment method.
 
-> AS a user I WANT to pay (bank transfer, pay later, Paypal, Stripe and
+> AS an user I WANT to pay (bank transfer, pay later, Paypal, Stripe and
 > Paddle) SO THAT make a reservation.
 
 ![MindMapBooking](https://github.com/jsilvalu/QAutomation/blob/main/Resources/PHPTRAVELSBooking.png?raw=true)
