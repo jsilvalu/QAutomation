@@ -25,7 +25,7 @@ In the following table I will present the details of the session that will be co
 |Date  | 16/08/2021 20:00 |
 |Time  | 1 h |
 |Risks  | Booking flow (results, hotel details, images, description, price, personal data, travellers data, payments methods).   |
-|Errors  | found (9) |
+|Errors  | found (10) |
 |Notes  | Interesting e2e flows:  analysis of limit values, equivalence classes, null values in input fields. Payment method flows. Price analysis in search and booking.|
 
 ## 2. Functionality
