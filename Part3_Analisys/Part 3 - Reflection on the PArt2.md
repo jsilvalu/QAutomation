@@ -19,7 +19,7 @@ In a way, automatic functional tests have a high scope, since by executing tests
 
  In the following image we can see the classic pyramid representation of the scope including the automatic tests carried out in Part 2.
 
-![testpyramid](https://github.com/jsilvalu/QAutomation/blob/main/Resources/test-pyramid.jpg?raw=true)
+![testpyramid](https://github.com/jsilvalu/QAutomation/blob/main/Resources/test-pyramid.png?raw=true)
 
 
 ## 3.2 When should test cases be automated?
