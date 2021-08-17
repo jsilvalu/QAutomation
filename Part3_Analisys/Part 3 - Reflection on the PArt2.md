@@ -38,6 +38,9 @@ One of the most important aspects is the necessary investment of resources when 
 
 ![whenAuto](https://github.com/jsilvalu/QAutomation/blob/main/Resources/whenAuto.jpg?raw=true)
 
+
+
+
 As we can see, there is a tipping point where it is considered that in the medium to long term the benefits of automating e2e tests are greater than running tests manually.
 
 
@@ -45,3 +48,14 @@ In the solution developed in Selenium, a small effort has been considered in ord
 Below is a graph with the statistics of the most used browsers in the world:
 
 ![browsersStats](https://github.com/jsilvalu/QAutomation/blob/main/Resources/browser_stats.png?raw=true)
+
+
+In part 2 a test case has been designed in Selenium that performs the flow we can see below:
+
+![browsersStats](https://github.com/jsilvalu/QAutomation/blob/main/Resources/LEGO.png?raw=true)
+
+In order to ensure the quality of the automatic tests, Explicit Waits with Expected Conditions have been added at critical flow points, for example, the loading of suggestions during product search.
+Assertions have also been added at some points in the flow to determine if the frontend content is correct.
+I would like to clarify that (in my opinion) the use of selectors such as XPATH is not advisable due to the potential risk that tests are more static and with changes in the frontend could report false negatives.
+
+There are better alternatives such as ID, CSS, Classname, Links, Names...
