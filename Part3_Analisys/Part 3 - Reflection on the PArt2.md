@@ -6,7 +6,7 @@ End to end testing (E2E testing) refers to a software testing method that involv
 Essentially, the test goes through every operation the application can perform to test how the application communicates with hardware, network connectivity, external dependencies, databases, and other applications. Usually, E2E testing is executed after functional and system testing is complete.
 In part 2, a solution has been developed that automates the browser using the "Selenium" framework.
 
-## 3.1 Scope of the test##
+## 3.1 Scope of the test
 
 In a way, automatic functional tests have a high scope, since by executing tests you are also executing:
 
