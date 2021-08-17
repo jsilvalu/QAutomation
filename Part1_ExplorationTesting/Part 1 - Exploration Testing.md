@@ -90,6 +90,10 @@ In relation to the hotel reservation process the following errors have been dete
 ![Confirmed](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen10.png?raw=true)
 ![Cancelled](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen11.png?raw=true)
 
+5. It´s possible to make a booking without entering the names of the travellers.
+
+![NoNames](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Nonames.png?raw=true)
+
 
 ## 5.Risk analysis
 
