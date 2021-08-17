@@ -113,6 +113,8 @@ In relation to the hotel reservation process the following errors have been dete
 
 ![Nonames](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Nonames.jpg?raw=true)
 
+6. Paddle payment not work.
+
 
 ## 5.Risk analysis
 
