@@ -1,0 +1,45 @@
+{
+  "CREDENTIALS":
+    {
+      "first_name": "Juan Antonio",
+      "last_name": "Silva Luján",
+      "address": "Avenida de Elvas",
+      "email": "jsilvalu93@gmail.com",
+      "user_phone": "123456789"
+    },
+  "PAYMENT_METHOD":
+  {
+    "card_number": "123123123123123",
+    "card_expiration": "05/22",
+    "ccv": "123"
+  },
+
+  "BROWSER":
+    {
+      "chromedriver_windows": "../../Drivers/chromedriver.exe",
+      "firefoxdriver_windows": "../../Drivers/geckodriver.exe",
+      "edgedriver_windows": "../../Drivers/msedgedriver.exe",
+      "operadriver_windows": "../../Drivers/operadriver.exe",
+      "chromedriver_linux": "../../Drivers/chromedriver_linux",
+      "firefoxdriver_linux": "../../Drivers/geckodriver_linux",
+      "edgedriver_linux": "../../Drivers/msedgedriver_linux",
+      "operadriver_linux": "../../Drivers/operadriver_linux",
+      "URL": "https://www.lego.com/es-es"
+    },
+
+  "HEADLESS_ARGUMENTS":
+    {
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36 ",
+      "window-size":"--window-size=1920,1080",
+      "ignore-errors:": "--ignore-certificate-errors",
+      "allow-running": "--allow-running-insecure-content",
+      "disable-extensions": "--disable-extensions",
+      "proxy-server": "--proxy-server='direct://'",
+      "proxy-bypass": "--proxy-bypass-list=*",
+      "maximized": "--start-maximized",
+      "disable-gpu":"--disable-gpu",
+      "disable-dev": "--disable-dev-shm-usage",
+      "no-sandbox":"--no-sandbox"
+    }
+}
+

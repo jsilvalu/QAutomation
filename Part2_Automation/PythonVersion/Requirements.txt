@@ -1,0 +1,4 @@
+selenium==3.141.0
+pytest==6.2.2
+pyunitreport==0.1.4
+webdriver-manager==3.3.0
