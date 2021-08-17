@@ -66,6 +66,10 @@ For example: Applying limit value tests, it has been detected that the system al
 
 ![Responsive](https://github.com/jsilvalu/QAutomation/blob/main/Resources/Imagen14.png?raw=true)
 
+4. It is possible to insert past dates. This action cannot be performed in the current month since the previous days are disabled, but if we access a previous month it will default to a day of a past month.
+
+![pastDate](https://github.com/jsilvalu/QAutomation/blob/main/Resources/pasMonth.png?raw=true)
+
 
 In relation to the hotel reservation process the following errors have been detected:
 
